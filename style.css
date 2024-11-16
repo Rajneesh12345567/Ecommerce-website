@@ -1,0 +1,52 @@
+.k:hover{
+    /* border:1px solid aqua; */
+    background-size: cover;
+    box-sizing: border-box
+    
+
+
+
+   
+    
+}
+body{
+    background-color:#eef6f9;
+    height: 100vh;
+    width:100vw;
+    overflow-x: hidden;
+
+}
+ul li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.mycard{
+    transition: 0.5s ease;
+}
+.zoom-in:hover div img{
+      transform: scale(1.2);
+
+
+}
+.zoom-in div{
+    overflow: hidden;
+}
+.zoom-in div img{
+    transition: 0.5s ease;
+}
+.mycard:hover
+{
+    margin-top: -30px;
+
+}
+#r{
+ 
+        text-decoration: underline black;
+      
+}
+.g:hover{
+    border :2px solid aquamarine;
+}
+.b{
+    background-color: #eff7fa;
+}
